@@ -1,4 +1,4 @@
-# Docker Stack
+# PHP Backend API Microservice
 A simplified Docker Compose workflow that sets up a network of containers for local development. You can view the full article that inspired this repo [here](https://dev.to/aschmelyun/the-beauty-of-docker-for-local-laravel-development-13c0).
 
 ## Usage
