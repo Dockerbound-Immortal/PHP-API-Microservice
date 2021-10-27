@@ -1,0 +1,72 @@
+###############################
+#        Dockerignore         # 
+#    Updated: 27-10-2021      #
+#    author: Luke McCann      #
+##############################
+
+###########
+# Secrets # 
+##########
+.env
+*.md
+!README*.md
+README-secret.md
+
+#######
+# Git # 
+######
+.git
+.cache
+
+############
+# Database # 
+###########
+mysql
+/mysql/
+data-postgres
+/data-postgres/
+
+#############
+# Libraries # 
+############
+vendor
+/vendor/
+node_modules
+/node_modules/
+rabbitmq/*
+rabbitmq/data/*
+
+#####################
+# Pakckage Managers # 
+####################
+## NPM ##
+npm-debug.log
+
+## Yarn ##
+yarn-error.log
+
+################
+# Code Editors # 
+###############
+## VSCode ##
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+## Jetbrains ##
+.idea
+work/
+build/
+bin/
+target/
+.gradle/
+.classpath
+.checkstyle
+.project
+.settings/
+.idea/
+*.iml
